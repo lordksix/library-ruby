@@ -100,7 +100,7 @@ To install dependencies, the following command must be run in the terminal:
 In the project directory, you can run:
 
 ```sh
-  irb -r ./mylist.rb
+  irb
 ```
 
 
@@ -127,7 +127,7 @@ No deployment of this project
 ## 🔭 Future Features <a name="future-features"></a>
 
 Future changes:
-- No changes
+- Decorate classes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
