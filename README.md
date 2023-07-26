@@ -14,7 +14,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -56,6 +55,8 @@
 - **Implement Person, Student and Teacher Class**
 - **Implement inheritance**
 - **Implement decorator deisgn pattern**
+- **Implement book, rental and classroom Class**
+- **Implement associations**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,7 +103,7 @@ To install dependencies, the following command must be run in the terminal:
 In the project directory, you can run:
 
 ```sh
-  irb -r ./trimmerdecorator.rb
+  irb
 ```
 
 
@@ -129,7 +130,7 @@ No deployment of this project
 ## 🔭 Future Features <a name="future-features"></a>
 
 Future changes:
-- Implement associations
+- Implement ui
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
