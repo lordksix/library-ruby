@@ -100,7 +100,7 @@ class App
     elsif @books.length() < 1
       puts 'No books to rent, please create a book'
     else
-      puts 'No users available, please create a user'
+      puts 'No people available, please create a person'
     end
   end
 
@@ -119,7 +119,7 @@ class App
         puts "#{index + 1}) Book: #{rental.book.title}, Date: #{rental.date}"
       end
     else
-      puts 'User does not have any book rented'
+      puts 'Person does not have any book rented'
     end
   end
 
