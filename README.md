@@ -57,6 +57,8 @@
 - **Implement decorator deisgn pattern**
 - **Implement book, rental and classroom Class**
 - **Implement associations**
+- **Implement application class with driver methods**
+- **Implement main.rb to run application**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -103,7 +105,7 @@ To install dependencies, the following command must be run in the terminal:
 In the project directory, you can run:
 
 ```sh
-  irb
+  ruby main.rb
 ```
 
 
