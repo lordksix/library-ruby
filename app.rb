@@ -25,7 +25,7 @@ class App
     if @books.empty?
       puts 'No books registered'
     else
-      @books.each_with_index do |book, index|
+      @people.each_with_index do |book, index|
         puts "#{index + 1}) Title: '#{book.title}', Author: '#{book.author}'"
       end
     end
