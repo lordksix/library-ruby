@@ -3,14 +3,15 @@ require_relative 'rental'
 
 class Person < Nameable
   attr_accessor :name, :age, :rentals
-  attr_reader :id
+  attr_reader :id, :title
 
   # Constructor
-  def initialize(age, name = 'unknown', parent_permission: true)
+  def initialize(age, title, name = 'unknown', parent_permission: true)
     super()
     @id = Random.rand(1...1000)
     @name = name
     @age = age
+    @title = title
     @parent_permission = parent_permission
     @rentals = []
   end
